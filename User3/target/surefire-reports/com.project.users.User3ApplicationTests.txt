@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.project.users.User3ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 19.73 s <<< FAILURE! -- in com.project.users.User3ApplicationTests
+com.project.users.User3ApplicationTests.testUpdateUserPassword -- Time elapsed: 0.028 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.project.users.entity.User.getUserId()" because "user" is null
+	at com.project.users.service.UserServiceImpl.mapToDto(UserServiceImpl.java:127)
+	at com.project.users.service.UserServiceImpl.updateUserPassword(UserServiceImpl.java:75)
+	at com.project.users.User3ApplicationTests.testUpdateUserPassword(User3ApplicationTests.java:125)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
