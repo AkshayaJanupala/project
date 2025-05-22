@@ -1,0 +1,14 @@
+com\capgemini\service\Ivehicle.class
+com\capgemini\controller\VehicleController.class
+com\capgemini\exception\VehicleNotFoundException.class
+com\capgemini\repository\VehicleRepository.class
+com\capgemini\exception\GlobalExceptionHandler.class
+com\capgemini\dto\VehicleDTO.class
+com\capgemini\entity\Vehicle.class
+com\capgemini\client\DriverClient.class
+com\capgemini\entity\VehicleStatus.class
+com\capgemini\exception\InvalidStatusException.class
+com\capgemini\service\VehicleServiceImpul.class
+com\capgemini\VehicleServiceApplication.class
+com\capgemini\controller\VehicleController$VehicleStatusUpdateRequest.class
+com\capgemini\dto\DriverDTO.class
